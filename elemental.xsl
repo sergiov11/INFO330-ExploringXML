@@ -68,7 +68,7 @@
      statements, respectively. -->
 <xsl:template match="pokemon">
     <tr>
-      <td><xsl:value-of select=".XPATH-QUERY-GOES-HERE" />(<xsl:value-of select="XPATH-QUERY-GOES-HERE" />)</td>
+      <td><xsl:value-of select="" />(<xsl:value-of select="XPATH-QUERY-GOES-HERE" />)</td>
       <td><xsl:apply-templates select="XPATH-QUERY-GOES-HERE" /></td>
     </tr>
 </xsl:template>
